@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sparkr Media - Contact Us</title>
+        <link rel="stylesheet" href="practice-website-layout.css">
+    </head>
+    <body>
+        <div class="navcontainer">
+            <nav class="navbar navbar-fixed-left">
+                <ul>
+                    <li><a href="/Users/kristamartinez/SWE/projects/practice-website/index.html">Home</a></li>
+                    <li><a href="/Users/kristamartinez/SWE/projects/practice-website/contactus.html">Contact Us</a></li>
+                    <li><a href="/Users/kristamartinez/SWE/projects/practice-website/examples.html">Examples</a></li>
+                    <li><a href="/Users/kristamartinez/SWE/projects/practice-website/aboutus.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1>Contact Us</h1>
+        <form class="contactform" method="post" action="/contact">
+            <fieldset class="form-field">
+                <legend class="form-legend">Contact</legend>
+            <div class="firstName">
+                <div class="label">
+                    <label for="firstNameInput" class="firstNameLabel">First Name:</label>
+                </div>
+                <div class="input">
+                    <input type="text" id="firstNameInput" class="firstNameInput">
+                </div>
+            </div>
+            <div class="lastName">
+                <div class="label">
+                    <label for="lastNameInput" class="lastNameLabel">Last Name:</label>
+                </div>
+                <div class="input">
+                    <input type="text" id="lastNameInput" class="lastNameInput">
+                </div>
+            </div>
+            <div class="contactEmail">
+                <div class="label">
+                    <label for="contactEmailInput" class="contactEmailLabel">Email:</label>
+                </div>
+                <div class="input">
+                    <input type="email" id="contactEmailInput">
+                </div>
+            </div>
+            <div class="contactMessage">
+                <div class="label">
+                    <label for="contactMessageInput" class="contactMessageLabel">Message:</label>
+                </div>
+                <div class="input">
+                    <textarea id="contactMessageInput"></textarea>
+                </div>
+            </div>
+            <div class="signup">
+                <label for="signupCheckbox" class="signupLabel">Sign up<br>for news?</label>
+                <input type="checkbox" id="signupCheckbox">
+            </div>
+            <div class="submitbutton">
+                <button type="submit" class="submit">Submit!</button>
+            </div>
+            </fieldset>
+        </form>
+    </body>
+    <footer>
+        <p class="copyright">Copyright © 2023 - Aston Martinez</p>
+    </footer>
+</html>
